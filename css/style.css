@@ -409,6 +409,75 @@
 /* Footer */
 
 
+/* .light-blue{
+    color: rgb(156, 199, 233);
+}
+
+.blue{
+    color: #5261cd;
+}
+
+.deep-pink{
+    color: #690c25;
+}
+
+.pink{
+    color: #e66e8e;
+}
+
+.red{
+    color: rgb(199, 70, 70);
+}
+
+
+
+.footer-content h4{
+    color: #1e2228;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-content ul li{
+    margin-bottom: 10px;
+}
+
+.footer-content ul li:hover{
+    color: #5b78a4;
+}
+
+.footer-content form {
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid #cbe2eb;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.footer-content input {
+    width: 200px;
+    padding: 12px 20px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background-color: #ffffff; 
+}
+
+.footer-content button {
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    background: linear-gradient( #ea636f, #ee4370);
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.footer-content button:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+} */
+
+
 .light-blue{
     color: rgb(156, 199, 233);
 }
@@ -475,4 +544,85 @@
 .footer-content button:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     cursor: pointer;
+}
+
+
+/* -----------css for small screen--------------- */
+
+@media only screen and (max-width: 600px){
+    /* .difference-image-text-text {
+        display: none;
+    }
+    .difference-image-text-second-box {
+        display: none;
+    }
+    .difference-image-text-first-box{
+        display: none;
+    } */
+     .big-headings{
+        font-size: 30px;
+     }
+     .small-headings{
+        font-size: 30px;
+     }
+     .nav1-social-links li i{
+        margin: 5px;
+     }
+     .navbar-brand img{
+        margin-left: 65px;
+        margin-bottom: 10px;
+     }
+     .hero-content h1{
+        font-size: 25px;
+     }
+     .hero-btn{
+        margin: 65px;
+     }
+     .difference-image-content{
+        display: none;
+     }
+     .works{
+        flex-basis: 100%;
+     }
+     .who-img img{
+        width: 400px;
+        margin-left: 10px;
+        
+     }
+
+     .who-images img{
+        /* width: 20px; */
+     }
+     .small-headings{
+        text-align: center;
+        font-size: 14px;
+     }
+     .big-headings-2{
+        font-size: 25px;
+     }
+     .my-small-1{
+        text: center;
+     }
+     .footer-container {
+        text-align: center;
+     }
+     .footer{
+        text-align: center;
+     }
+     .nav-social-links  li i{
+        margin: 25px;
+     }
+     .footer-content h4, p{
+        text-align: center;
+     }
+     .footer-content ul li{
+        text-align: center;
+
+     }
+     .form-input{
+        margin: auto;
+     }
+     .works{
+        margin-bottom: 50px;
+     }
 }
